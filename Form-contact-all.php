@@ -4,7 +4,7 @@
 if( mail(trim($_POST['email']), trim($_POST['assunto']), $_POST['mensagem'], "from:igntemplates@gmail.com" ) ){
 	$resultado = "Sua mensagem foi enviada com sucesso.";
 }else{
-	$resultado = "Sua mensagem NÃO foi enviada. <a href='formulario.php'>Clique aqui</a> para voltar e tentar novamente.";
+	$resultado = "Sua mensagem NÃO foi enviada. <a href='#'>Clique aqui</a> para voltar e tentar novamente.";
 }
 
 
